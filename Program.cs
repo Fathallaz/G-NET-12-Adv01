@@ -125,6 +125,21 @@ namespace Assignmentadv
             //printer.PrintItem(doc);
 
             #endregion
+
+            #region Question 11 
+            //Q11: What is the base class constraint? Write an example.
+
+            //Answer : The base class constraint is a generic type constraint that specifies that the type parameter must inherit from a specific base class.
+
+
+            //AnimalShelter<Dog> dogContainer = new AnimalShelter<Dog>();
+            //dogContainer.Add(new Dog { Name = "shika" });
+            //dogContainer.MakeItSpeak(); 
+
+            //AnimalShelter<Cat> catContainer = new AnimalShelter<Cat>();
+            //catContainer.Add(new Cat { Name = "cat" });
+            //catContainer.MakeItSpeak(); 
+            #endregion
         }
     }
 }
