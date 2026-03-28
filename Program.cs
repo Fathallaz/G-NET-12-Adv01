@@ -203,6 +203,15 @@ namespace Assignmentadv
             //Answer : Static members in generic types are shared across all instances of the generic type, regardless of the type parameter.
 
             #endregion
+
+            #region Question 19 
+
+            //Q19: How can you inherit from a generic class?
+
+            //Answer : You can inherit from a generic class by specifying the type parameter in the derived class.
+
+
+            #endregion
         }
     }
 }
