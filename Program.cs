@@ -196,6 +196,13 @@ namespace Assignmentadv
             //The 'in' keyword is used to indicate that a type parameter is contravariant,
             //meaning it can be substituted with a less derived type.
             #endregion
+
+            #region Question 18 
+            //Q18: How do static members work in generic types ?
+
+            //Answer : Static members in generic types are shared across all instances of the generic type, regardless of the type parameter.
+
+            #endregion
         }
     }
 }
