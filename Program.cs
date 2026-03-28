@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Data;
 
 namespace Assignmentadv
 {
@@ -69,8 +70,24 @@ namespace Assignmentadv
 
             //Answer : A generic interface is an interface that can work with any data type.
 
-            IRepository<Product> productRepository = new ProductRepository();
-            productRepository.Add(new Product(1, "Laptop", 999.99m));
+            //IRepository<Product> productRepository = new ProductRepository();
+            //productRepository.Add(new Product(1, "Laptop", 999.99m));
+
+            #endregion
+
+            #region Question 7 
+            //Q7: What is the 'struct' constraint? Write an example.
+
+            //Answer : The 'struct' constraint is a generic type constraint that specifies that the type parameter must be a value type (struct).
+
+            //Container<int> intContainer = new Container<int>();
+            //intContainer.Add(100);
+            //Console.WriteLine(intContainer.Get()); 
+
+            
+            //Container<DateTime> dateContainer = new Container<DateTime>();
+            //dateContainer.Add(DateTime.Now);
+            //Console.WriteLine(dateContainer.Get());
 
             #endregion
         }
