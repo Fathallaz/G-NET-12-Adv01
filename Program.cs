@@ -32,6 +32,18 @@ namespace Assignmentadv
             //Console.WriteLine(intContainer.Get());
 
             #endregion
+
+            #region Question 2 
+            //Q3: What are multiple type parameters? Write Pair<TKey, TValue>.
+
+            //Answer : multiple type parameters allow you to define a generic class or method that can work with more than one type.
+            Pair<string, int> pair = new Pair<string, int>();
+            pair.Add("Age", 30);
+            Console.WriteLine($"Key: {pair.GetKey()}, Value: {pair.GetValue()}");
+
+
+
+            #endregion
         }
     }
 }
