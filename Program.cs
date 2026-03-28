@@ -149,8 +149,15 @@ namespace Assignmentadv
 
             //Manager<Employee> manager = new Manager<Employee>();
             //manager.CreateAndPrint();
-            
 
+
+            #endregion
+
+            #region Question 13 
+
+            //Q13: What does the 'default' keyword do in generics ?
+
+            //Answer : The 'default' keyword in generics is used to return the default value of a type parameter.
             #endregion
         }
     }
