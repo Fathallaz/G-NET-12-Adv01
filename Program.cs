@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualBasic;
 using System.ComponentModel;
 using System.Data;
+using System.Numerics;
 using System.Reflection.Metadata;
 
 namespace Assignmentadv
@@ -211,6 +212,25 @@ namespace Assignmentadv
             //Answer : You can inherit from a generic class by specifying the type parameter in the derived class.
 
 
+            #endregion
+
+            #region Question 20 
+            //Q20: Complete Exercise -Create a generic Cache < TKey, TValue> with Add, Get, Remove, Contains, and expiration support.
+
+            //Cache<string, string> cache = new Cache<string, string>();
+
+            //cache.Add("user1", "Mohamed", 5); 
+            //cache.Add("user2", "Ali");      
+
+            //Console.WriteLine(cache.Get("user1")); 
+            //Console.WriteLine(cache.Contains("user2")); 
+
+            //System.Threading.Thread.Sleep(6000); 
+            //Console.WriteLine(cache.Get("user1")); 
+            //Console.WriteLine(cache.Contains("user1")); 
+
+            //cache.Remove("user2");
+            //Console.WriteLine(cache.Contains("user2"));
             #endregion
         }
     }
