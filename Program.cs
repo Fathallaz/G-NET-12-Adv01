@@ -178,6 +178,16 @@ namespace Assignmentadv
             //Console.WriteLine(words.Get(2) == null); 
 
             #endregion
+
+            #region Question 15 
+
+            //Q15: What is covariance? Explain the 'out' keyword.
+
+            //Answer : Covariance allows you to use a more derived type than originally specified.
+            //The 'out' keyword is used to indicate that a type parameter is covariant,
+            //meaning it can be substituted with a more derived type.
+
+            #endregion
         }
     }
 }
