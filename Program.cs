@@ -56,6 +56,13 @@ namespace Assignmentadv
             //Console.WriteLine(b);
 
             #endregion
+
+            #region Question 5 
+            //Q5: Write a generic method FindMax < T > that finds maximum value
+            // int[ ] Numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //Utility1.PrintArray(Numbers);
+            //Console.WriteLine(Utility1.FindMax(Numbers)); 
+            #endregion
         }
     }
 }
