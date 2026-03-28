@@ -63,6 +63,16 @@ namespace Assignmentadv
             //Utility1.PrintArray(Numbers);
             //Console.WriteLine(Utility1.FindMax(Numbers)); 
             #endregion
+
+            #region Question 6 
+            //Q6: What is a generic interface? Write IRepository<T>.
+
+            //Answer : A generic interface is an interface that can work with any data type.
+
+            IRepository<Product> productRepository = new ProductRepository();
+            productRepository.Add(new Product(1, "Laptop", 999.99m));
+
+            #endregion
         }
     }
 }
