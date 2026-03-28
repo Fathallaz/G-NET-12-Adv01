@@ -101,8 +101,18 @@ namespace Assignmentadv
             //stringRepo.Add("Hello ");
             //Console.WriteLine(stringRepo.Get());
 
-           
 
+
+            #endregion
+
+            #region Question 9 
+            //Q9: What is the 'new()' constraint? Write an example.
+
+            //Answer : The 'new()' constraint is a generic type constraint that specifies that the type parameter must have a parameterless constructor.
+
+            //Factory<Product> productFactory = new Factory<Product>();
+            //Product p = productFactory.Create();
+            //Console.WriteLine(p.Price);
             #endregion
         }
     }
