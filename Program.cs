@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Data;
+using System.Reflection.Metadata;
 
 namespace Assignmentadv
 {
@@ -84,10 +85,23 @@ namespace Assignmentadv
             //intContainer.Add(100);
             //Console.WriteLine(intContainer.Get()); 
 
-            
+
             //Container<DateTime> dateContainer = new Container<DateTime>();
             //dateContainer.Add(DateTime.Now);
             //Console.WriteLine(dateContainer.Get());
+
+            #endregion
+
+            #region Question 8 
+            //Q8: What is the 'class' constraint? Write an example.
+
+            //Answer : The 'class' constraint is a generic type constraint that specifies that the type parameter must be a reference type (class).
+
+            //Container2<string> stringRepo = new Container2<string>();
+            //stringRepo.Add("Hello ");
+            //Console.WriteLine(stringRepo.Get());
+
+           
 
             #endregion
         }
