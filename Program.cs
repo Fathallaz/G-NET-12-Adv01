@@ -188,6 +188,14 @@ namespace Assignmentadv
             //meaning it can be substituted with a more derived type.
 
             #endregion
+
+            #region Question 16 
+            //Q16: What is contravariance? Explain the 'in' keyword
+
+            //Answer : Contravariance allows you to use a less derived type than originally specified.
+            //The 'in' keyword is used to indicate that a type parameter is contravariant,
+            //meaning it can be substituted with a less derived type.
+            #endregion
         }
     }
 }
