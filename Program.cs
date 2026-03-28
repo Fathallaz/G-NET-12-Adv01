@@ -114,6 +114,17 @@ namespace Assignmentadv
             //Product p = productFactory.Create();
             //Console.WriteLine(p.Price);
             #endregion
+
+            #region Question 10 
+            //Q10: What is the interface constraint? Write an example.
+
+            //Answer : The interface constraint is a generic type constraint that specifies that the type parameter must implement a specific interface.
+
+            //Document doc = new Document();
+            //Printer<Document > printer = new Printer<Document>();
+            //printer.PrintItem(doc);
+
+            #endregion
         }
     }
 }
