@@ -44,6 +44,18 @@ namespace Assignmentadv
 
 
             #endregion
+
+            #region Question 4 
+            //Q4: What is a generic method? Write Swap<T> method.
+
+            //Answer : A generic method is a method that can work with any data type.
+
+            //int a = 5, b = 10;
+            //Utility.Swap(ref a, ref b);
+            //Console.WriteLine(a);
+            //Console.WriteLine(b);
+
+            #endregion
         }
     }
 }
