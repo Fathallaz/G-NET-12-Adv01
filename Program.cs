@@ -159,6 +159,25 @@ namespace Assignmentadv
 
             //Answer : The 'default' keyword in generics is used to return the default value of a type parameter.
             #endregion
+
+            #region Question 14 
+
+            //Q14: Write a SafeList < T > that returns default when the index is invalid.
+
+
+            //SafeList<int> numbers = new SafeList<int>();
+            //numbers.Add(10);
+            //numbers.Add(20);
+
+            //Console.WriteLine(numbers.Get(0)); 
+            //Console.WriteLine(numbers.Get(1)); 
+            //Console.WriteLine(numbers.Get(5)); 
+
+            //SafeList<string> words = new SafeList<string>();
+            //words.Add("Hello");
+            //Console.WriteLine(words.Get(2) == null); 
+
+            #endregion
         }
     }
 }
