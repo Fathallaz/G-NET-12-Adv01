@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.VisualBasic;
+using System.ComponentModel;
 using System.Data;
 using System.Reflection.Metadata;
 
@@ -139,6 +140,17 @@ namespace Assignmentadv
             //AnimalShelter<Cat> catContainer = new AnimalShelter<Cat>();
             //catContainer.Add(new Cat { Name = "cat" });
             //catContainer.MakeItSpeak(); 
+            #endregion
+
+            #region Question 12 
+            //Q12: How do you apply multiple constraints? Write an example.
+
+            //Answer : You can apply multiple constraints by separating them with commas.
+
+            //Manager<Employee> manager = new Manager<Employee>();
+            //manager.CreateAndPrint();
+            
+
             #endregion
         }
     }
